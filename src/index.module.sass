@@ -1,0 +1,76 @@
+*
+      padding: 0
+      margin: 0
+      box-sizing: border-box
+
+html
+      font:
+            family: "Roboto"
+            size: 16px
+            line-height: 1.5
+            letter-spacing: 2px
+
+.quizApp
+      background-color: #fff
+      border-radius: 6px
+      padding: 30px
+      width: 400px
+
+h4
+      text-align: left
+      padding: 0 0 14px
+      border-bottom: 1px solid #000
+
+.primaryBtn
+      $color: #483786
+      padding: 6px 20px
+      width: 120px
+      background-color: $color !important
+      border-color: $color!important
+      margin: 10px 0 0
+
+.OutlineDarkBtn
+      width: 100%
+      text-align: left !important
+      border-color: #ccc !important
+
+      &:hover
+            background-color: transparent !important
+            border-color: #ccc !important
+            color: #000 !important
+
+.correct
+      background-color: rgba(3, 218, 198, 0.2) !important
+      border-color: rgba(3, 218, 198, .6) !important
+
+      &:hover
+            background-color: rgba(3, 218, 198, 0.2) !important
+            border-color: rgba(3, 218, 198, .6) !important
+
+.incorrect
+      background-color: rgba(176, 0, 32, 0.2) !important
+      border-color: rgba(176, 0, 32, 0.6) !important
+
+      &:hover
+            background-color: rgba(176, 0, 32, 0.2) !important
+            border-color: rgba(176, 0, 32, 0.6) !important
+
+.questions,
+.questionListItem
+      text-align: left
+
+.questions > p
+      margin: 0
+      font-weight: 500
+
+.questionList
+      list-style-type: none
+      padding: 0
+      margin: 0
+
+.questionListItem
+      margin: 10px 0
+
+.numberOfPages
+      font-size: 14px
+      margin-top: 10px
